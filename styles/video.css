@@ -1,0 +1,84 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+@media (max-width: 340px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+@media  (min-width: 700px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        margin: 20px;
+    }
+}
+@media (min-width: 900px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }  
+}
+.thumbnile{
+    position: relative;
+    cursor: pointer;
+}
+.img{
+    width:250px;
+ }
+.time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    left: 75%;
+    bottom: 8%;
+    z-index: 1;
+}
+@media (max-width:350){
+    .img{
+        width: 300px;
+    }
+}
+.describtion {
+    width: 200px;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+p{
+    margin: 0;
+    width: 100%;
+}
+p span{
+    color: gray;
+    font-size: 14px;
+}
+.profile.pic{
+    width: 50px;
+
+}
+.chennel_pic{
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+@media (max-width:350px){
+    p span{
+        font-size: 12px;
+    }
+    .profile.pic{
+        width: 30px;
+    }
+    .chennel_pic{
+        width: 30px;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+}

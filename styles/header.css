@@ -1,0 +1,172 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid rgb(245, 241, 241);
+    position: fixed;
+    z-index: 2;
+}
+
+.logo_section{
+    width: 200px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    height: 30px;
+    margin-left: 33px;
+    /* padding-left: 20px; */
+    padding-right: 10px;
+    cursor: pointer;
+}
+.logo{
+    height: 50px;
+    cursor: pointer;
+}
+@media (max-width:350px){
+    .logo_section{
+        width: 100px;
+    }
+    .menu{
+        height: 20px;
+        margin-left: 25px;
+    }
+    .logo{
+        height: 25px;
+    }
+}
+.search_section{
+    /* background-color: lightblue; */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    width: 250%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+    font-size: 12px;
+}
+.search_logo_section{
+    margin-left:250px;
+    border-left: 1px solid lightgray;
+}
+.search_logo{
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.voice_search_secation{
+    border:1px solid lightgray;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-left: 20px;  
+    padding-top: 10px;
+}
+button{
+    height: 30px;
+    border: none;
+    background-color: white;
+    /* border: 1px solid lightgray; */
+    border-radius: 50px;
+    cursor: pointer;
+}
+.voice_search{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+@media (max-width:350px){
+    input{
+        display: none;
+    }
+    .search_logo_section{
+        margin-left: 5px;
+        border: none;
+    }
+    .search_logo{
+        width: 20px;
+        height: 20px;
+        padding-top:8px;
+    }
+    .voice_search_secation{
+        margin: 10px;
+    }
+    button{
+        height: 15px;
+        border-radius: 30px;
+    }
+    .voice_search{
+        width: 15px;
+        height: 15px;
+    }
+}
+.id_section{
+    /* background-color: lightpink; */
+    width: 150px;
+    margin-left: 30px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.create_section{
+    height: 30px;
+    width: 30px;
+}
+.create_logo{
+    width: 100%;
+    cursor: pointer;
+}
+.notification_section{
+    height: 30px;
+    width: 30px;
+}
+.notificatino_logo{
+    width: 100%;
+    cursor: pointer;
+}
+.account_section{
+    width: 30px;
+    height: 30px;
+}
+.account_pic{
+    width: 100%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@media (max-width:350px) {
+    .id_section{
+        width: 75px;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .create_section{
+        width: 25px;
+    }
+    .create_logo{
+        width: 80%;
+    }
+    .notification_section{
+        width: 25px;
+    }
+    .notificatino_logo{
+        width: 80%;
+    }
+    .account_section{
+        width: 25px;
+    }
+    .account_pic{
+        width: 80%;
+        border-radius: 20px;
+    }
+}
